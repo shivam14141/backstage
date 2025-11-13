@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Component_1
+  title: as
+  description: ad
+  tags:
+    - hybrid-architecture
+spec:
+  owner: default/test-group-sandy1
+  lifecycle: experimental
+  type: plugin
+  providesApis: []
+  consumesApis: []
+  dependsOn: []
+  dependencyOf: []
+  fullAccess: []
+  limitedAccess: []
+  blockedAccess: []
