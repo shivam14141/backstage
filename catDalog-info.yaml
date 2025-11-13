@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: FIRSTGITHUBINSTALLEDNOT
+  title: FIRSTGITHUBINSTALLEDNOT
+  description: FIRSTGITHUBINSTALLEDNOT
+  tags:
+    - aeris
+spec:
+  owner: default/testnotificationsemail
+  lifecycle: deprecated
+  type: module
+  providesApis: []
+  consumesApis: []
+  dependsOn: []
+  dependencyOf: []
+  fullAccess: []
+  limitedAccess: []
+  blockedAccess: []
