@@ -1,22 +1,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: artist-web
-  description: The place to be, for great artists
-  labels:
-    example.com/custom: custom_label_value
-  annotations:
-    example.com/service-discovery: artistweb
-    circleci.com/project-slug: github/example-org/artist-website
+  name: Component_1
+  title: as
+  description: ad
   tags:
-    - java
-  links:
-    - url: https://admin.example-org.com
-      title: Admin Dashboard
-      icon: dashboard
-      type: admin-dashboard
+    - hybrid-architecture
 spec:
-  type: website
-  lifecycle: production
-  owner: artist-relations-team
-  system: public-websites
+  owner: default/test-group-sandy1
+  lifecycle: experimental
+  type: plugin
+  providesApis: []
+  consumesApis: []
+  dependsOn: []
+  dependencyOf: []
+  fullAccess: []
+  limitedAccess: []
+  blockedAccess: []
